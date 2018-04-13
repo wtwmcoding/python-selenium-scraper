@@ -189,7 +189,7 @@ changes_dataset = [['Removed','New']]
 for url in urls:
 	i = urls.index(url)
 	d1 = set(previous_data[i])
-	d2 = set(scraped_data[i])
+	d2 = set(new_dataset[i])
 	d3 = d1.symmetric_difference(d2)
 	changes_row = []
 	changes_row.append(list(d1 & d3))
