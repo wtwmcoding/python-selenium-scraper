@@ -65,7 +65,7 @@ $ sudo pip install selenium
 Selenium should now be installed.
 
 ### Download chromedriver
-Go to [https://sites.google.com/a/chromium.org/chromedriver/downloads] and download the latest release. (Version 2.37 used in this project)
+Go to [https://sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads) and download the latest release. (Version 2.37 used in this project)
 Extract the chromedriver file.
 
 ### Download scraper.py
@@ -92,7 +92,7 @@ Replace the `className` variable with the class name of the element you wish to 
 Save `scraper.py`
 ## How Do I Setup On a Cloud Instance?
 Create a Linux instance on AWS for free following the steps listed here:
-[https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/]
+[https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/](https://aws.amazon.com/getting-started/tutorials/launch-a-virtual-machine/)
 
 You can then connect to your instance via ssh.
 
@@ -220,12 +220,12 @@ YMMV, but the following is how I proceeded from an AWS/EC2 instance.
 * mySQL Workbench (You may wish to ssh into the database, but I found this the most effective)
 
 ### Setting up a mySQL Database through Amazon RDS
-Follow the steps to create and connect to a mySQL Database: [https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html]
+Follow the steps to create and connect to a mySQL Database: [https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.MySQL.html)
 
 Setup the inbound rules in the security group settings for your database through Amazon to be accessed from your local IP address.
 
 Follow the steps to connect to your database from mySQL workbench:
-[https://aws.amazon.com/premiumsupport/knowledge-center/connect-rds-mysql-workbench/]
+[https://aws.amazon.com/premiumsupport/knowledge-center/connect-rds-mysql-workbench/](https://aws.amazon.com/premiumsupport/knowledge-center/connect-rds-mysql-workbench/)
 
 Tips that helped me get through the setup:
 * Write down any usernames/passwords that you created during the steps above
@@ -341,7 +341,7 @@ This line of code is understood as:
 * `python /path/to/scraper.py`
 * Export the standard output to `/path/to/output.log`
 
-You can also use [https://crontab-generator.org/] to make a crontab easier.
+You can also use [https://crontab-generator.org/](https://crontab-generator.org/) to make a crontab easier.
 
 # 4. Conclusion
 Thank you for viewing my project. I'm proud to say that I worked on this project alone even though I had zero experience with python, AWS, EC2, RDS, and mySQL before I started this project in March 2018. I started this project to automate a tedious task for my job and to add experience to my developer career.
