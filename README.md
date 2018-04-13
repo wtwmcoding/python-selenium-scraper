@@ -171,7 +171,7 @@ import datetime
 ```
 At the end of this section we're going to export two files named `new_dataset.csv` and `changes_datasetMDY_HM.csv` stored in variables named `new_dataset_csv` and `changes_dataset_csv` respectively.
 
-Initially, `new_dataset.csv` should contain all the data from `exported_file.csv`. To do this, run `scraper.py` once and/or rename `exported_file.csv` to `new_dataset.csv`. **Once the scraper runs with the data comparison code, `new_dataset.csv` will be overwritten and you cannot access the data from previous time periods unless you saved a copy of `new_dataset.csv`**
+Initially, `new_dataset.csv` should contain all the data from `exported_file.csv`. To do this, run vanilla `scraper.py` once and/or rename `exported_file.csv` to `new_dataset.csv`. **Once the scraper runs with the data comparison code, `new_dataset.csv` will be overwritten and you cannot access the data from previous time periods unless you saved a copy of `new_dataset.csv`**
 
 `changes_datasetmdy_HM.csv` will contain all the data that has changed exporting with a timestamp in the filename where `m` = Month, `d` = Day, `y` = Year, `H` = Hour, `M` = Minute. This is retrieved from the command `datetime.datetime.now().strftime("%m%d%y_%H%M")`. For the purposes of this project, we will compare whether the scraped data is 'removed' or 'new'. *Edited data will count as a net change, storing the previous value in 'removed' and the current value in 'new'.*
 
